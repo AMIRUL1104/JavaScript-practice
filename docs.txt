@@ -1,0 +1,40 @@
+See More Toggle – সংক্ষিপ্ত ডকুমেন্টেশন
+
+Purpose:
+“See More” button ক্লিক করলে সংশ্লিষ্ট description box দেখানো বা লুকানো।
+
+HTML Structure:
+
+section#main_section → parent container
+
+div.first → প্রতিটি card
+
+button.see_more_btn → toggle trigger
+
+div.description > div.see_more_box → hidden content
+
+JavaScript Logic:
+
+main_section এ click event listener attach করা হয়েছে।
+
+যদি clicked element button হয়:
+
+child = clicked button
+
+parent = div.description (child.parentElement.lastElementChild)
+
+div = see_more_box (parent.lastElementChild)
+
+Toggle visibility:
+
+if(div.style.display === "none") div.style.display = "block";
+else div.style.display = "none";
+
+
+Event delegation ব্যবহৃত → নতুন card add করলেও কাজ করবে।
+
+Notes:
+
+lastElementChild ব্যবহার করা হয়েছে element node নিশ্চিত করার জন্য।
+
+CSS class toggle ব্যবহার করলে আরও clean এবং maintainable কোড হয়।

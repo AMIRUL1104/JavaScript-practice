@@ -5,9 +5,32 @@
 }
     
 body{
-    background-color: rgb(34, 53, 70);
+    background-color: #2b5e8b;
     padding: 0px;     
     margin: 0px;
     box-sizing: border-box;
+    
+}
+.first{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    padding: 15px;
+}
+.see_more_box{
+    border: 1px solid ;
+    margin-top: 20px;
+    padding: 10px;
+}
+.see_more_btn{
+    background-color: #c07410;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.see_more_btn:hover{
+    background-color: #443015;
+    color: aliceblue;
     
 }
