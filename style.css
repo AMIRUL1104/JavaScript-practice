@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    background-color: rgb(34, 53, 70);
+    padding: 0px;     
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
