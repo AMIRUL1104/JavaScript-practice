@@ -21,6 +21,7 @@ body{
     border: 1px solid ;
     margin-top: 20px;
     padding: 10px;
+    display: none;
 }
 .see_more_btn{
     background-color: #c07410;
