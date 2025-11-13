@@ -54,8 +54,9 @@ function complete(callback) {
   }, 2000);
 }
 
-// taskStart(function () {
-//   process(complete);
-// });
+taskStart(function () {
+  process(complete);
+});
+console.log("Hello from Node.js in VS Code!");
 
 //  ===============TASK THREE ======================
